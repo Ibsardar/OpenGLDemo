@@ -18,7 +18,7 @@ Display::Display(int width, int height, const std::string& title) {
 	// sets minimum # of bits allocated for each pixel
 	SDL_GL_SetAttribute(SDL_GL_BUFFER_SIZE, 32);
 
-	// enable double bufferring
+	// enable double buffering
 	// (allocates a duplicate drawing space for better display quality)
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 
