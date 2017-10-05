@@ -14,12 +14,7 @@ public:
 	void update();
 	virtual ~Display();
 
-	// variables
-
 protected:
-	// methods
-
-	// variables
 
 private:
 	// methods
